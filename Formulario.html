@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="Cruz.jpg">
+
+        <div></div>
+    <body>
+    <center> <h1>Formulario Medico</h1>
+        <table style = "whit:80%" border="2">
+        <div >
+		
+        <form name="formulario" method="POST" action="guardar.php">
+            
+			<b>
+           
+            <table border="1">
+                <tr>                   
+                <th>Nombre Completo</th>
+                <th> Fecha</th>
+                <th>Edad del Paciente </th>
+            </tr>
+            <td>
+                <p>
+                   <input type="text" name="nombre" maxlength="100" />
+                </p>
+            </td>
+            <td>
+                <p>
+                <input type="date" name="fecha" size="20">
+               </p>
+            </td>
+            
+             <td>  
+                 
+             <input type="text" name="edad" id="idEdad del Paciente" class="input">            
+             </td>
+                 
+           </table>
+
+            </center>
+             <hr>
+             <td>
+             
+                <table>
+                  <hr>  
+                 
+                 <td>
+             <label>¿A que Especialidad médica viene?</label>
+             </td>
+                <select name="menu">
+                <option value="0">...</option>
+                <option value="Pediatria">Pediatria</option>
+                <option value="Cardiologia">Cardiologia</option>
+                <option value="Urologia">Urologia</option>
+                <option value="Rayos X">Rayos X</option>
+                <option value="Neurología">Neurología</option>
+                <option value="Infectología">Infectología</option>
+                <option value="Psiquiatría">Psiquiatría</option>
+                <option value="Radiología">Radiología</option>
+              
+                 </table>
+                  <hr>
+             
+                   
+                 
+          
+                  
+                 <td>
+             <label>¿Estás bajo tratamiento médico actualmente?</label>
+             </td>
+            <input type="radio" name="tratamientomed" value="S" /> Si 
+            <input type="radio" name="tratamientomed" value="N" /> No
+                 
+                 
+            </table>
+			
+                  <hr>
+             <td>
+                 
+                 <label>¿Has tenido alguna enfermedad seria o grave?</label>
+             </td>
+        <input type="radio" name="enfermedad" value="S" /> Si 
+        <input type="radio" name="enfermedad" value="N" /> No
+                 
+                 <table>
+                  <hr>
+                  
+                  <label>¿Tienes alguna limitación física?</label>
+             </td>
+        <input type="radio" name="limitaciónf" value="S" /> Si 
+        <input type="radio" name="limitaciónf" value="N" /> No
+             
+                 </table>
+                  <hr>
+             <td>
+                  <label>¿Te han practicado alguna cirugía? </label>
+             </td>
+        <input type="radio" name="practicado" value="S" /> Si 
+        <input type="radio" name="practicado" value="N" /> No
+        </table>
+                  <hr>
+                  
+                  
+                 
+             <td>
+                  <label>¿Eres alegico a un medicamento? </label>
+             </td> 
+                 <input type="radio" name="medicamento" value="S" /> Si 
+                 <input type="radio" name="medicamento" value="N" /> No
+                 </table>
+                  <hr> 
+                  
+                  <td>
+                  <label>¿Has recibido algún tratamiento por adicción a drogas o alcohol? </label>
+             </td> 
+                 <input type="radio" name="drogasalcohol" value="S" /> Si 
+                 <input type="radio" name="drogasalcohol" value="N" /> No
+                 </table>
+                  <hr> 
+                  
+                  
+                  <td>
+                  <label>¿Has sido tratado por algún padecimiento emocional o nervioso?  </label>
+             </td> 
+                 <input type="radio" name="emocionalnervioso" value="S" /> Si 
+                 <input type="radio" name="emocionalnervioso" value="N" /> No
+                 </table>
+                  <hr> 
+                  
+				   <input type="submit" value="Enviar"></input>
+			</form>
+               
+                   
+        </div>
+		
+		
+<ul>
+       <li><a href="index.html">Principal</a></li>
+	   
+        </ul>
+		
+		
+            </b>
+            
+            </body>
+</html>
